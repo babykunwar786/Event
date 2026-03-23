@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main_outer {
+    width: 100%;
+}
+
+.outer_header {
+    max-width: 1700px;
+    margin: auto;
+    background-image: url('../images/bg01.webp');
+    background-size: contain;
+    padding: 50px;
+    padding-top: 0px;
+    height: 100vh;
+}
+.outer_header-1 {
+    max-width: 1700px;
+    margin: auto;
+    background-image: url('../images/flavourful-cocktails-and-mocktails.webp');
+    background-size: contain;
+    padding: 50px;
+    padding-top: 0px;
+    height: 100vh;
+}
+
+.outer_header-2 {
+    max-width: 1700px;
+    margin: auto;
+    background-image: url('../images/best-cafes-in-Udaipur.webp');
+    background-size: contain;
+    padding: 50px;
+    padding-top: 0px;
+    height: 100vh;
+}
+
+.header_pages ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.logo {
+    width: 236px;
+}
+
+.pages_h li {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pages_h li a {
+    color: antiquewhite;
+}
+
+.pages_h li a:hover {
+    color: pink;
+}
+
+.button {
+    color: #4d4848;
+    background: #ead5d5;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: aqua;
+}
+
+.inner_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: sticky;
+    padding-bottom: 131px;
+}
+
+.top_text {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 1px 2px #ede7dc;
+    cursor: pointer;
+}
+
+.tt1 {
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.top_text:hover {
+    color: #d4ecec;
+}
+
+.s1 {
+    width: 100%;
+}
+
+.s1_inner {
+    background-image: url('../images/bg06.webp');
+    background-size: contain;
+    background-size: cover;
+    display: flex;
+    padding: 70px;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    gap: 30px;
+}
+
+.s1_img {
+    width: 632px;
+    opacity: 5px;
+}
+
+.s1_txt {
+    color: #F5F5F5;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.s1_t1 {
+    font-size: 20px;
+    font-weight: 0px !important;
+    color: hsl(60, 76%, 71%);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 12px;
+}
+.s2_inner {
+    background-image: url('../images/bg3.webp');
+    background-size: contain;
+    background-size: cover;
+    display: flex;
+    padding: 70px;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    gap: 30px;
+}
+.s2_txt {
+    color:#f7f7f7;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.s2_t1 {
+    font-size: 20px;
+    font-weight: 0px !important;
+    color: hwb(108deg 53.75% 11.18%);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 12px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* footer section start */
+.main{
+    width: 100%;
+    margin: auto;
+}
+.row{
+    max-width: 1700px;
+    background-color: #000000;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.inner_footer{
+    color: white;
+    font-size: 19px;
+}
+.social{
+    display: flex;
+    gap: 40px;
+    font-size: 50px;
+    margin-left: 110px;
+}
+.touch{
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 19px;
+    word-spacing: 9px;
+    padding: 25px 430px;
+    box-sizing: border-box;
+}
+.touch>h5{
+    padding-bottom: 10px;
+}
+.footer_text{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.footer_text>p{
+    padding-top: 10px;
+}
+.inner_footer{
+    font-size: 20px;
+    /* word-spacin: 5px; */
+}
+
+
+/* why choose us */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Jost', Helvetica, Arial, Lucida, sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+.why-section{
+height:100vh;
+
+/* 🔥 yaha apni FIRST wali image lagao */
+background:url('/images/late-night-bar-in-Udaipur-4.webp');
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+}
+
+.overlay{
+background:rgba(0,0,0,0.6);
+width:100%;
+height:100%;
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:50px;
+color:white;
+}
+
+.content{
+width:50%;
+}
+
+.tagline{
+    font-size: 40px;
+color:orange;
+font-style:italic;
+font-family: 'Great Vibes', cursive;
+}
+
+.content h1{
+font-size:50px;
+margin:10px 0;
+}
+
+.content p{
+line-height:1.6;
+margin-bottom:20px;
+}
+
+.content ul{
+list-style:none;
+}
+
+.content ul li{
+margin:10px 0;
+}
+
+.images{
+display:flex;
+}
+
+.images img{
+width:600px;
+height:500px;
+object-fit:cover;
+border-radius:20px;
+}
+
+
+
+
+
+/* SECTION */
+.why-section-2{
+min-height:100vh;
+background:url('/images/late-night-bar-in-Udaipur-4.webp');
+background-size:cover;
+background-position:center;
+position:relative;
+}
+
+/* DARK OVERLAY */
+.why-section-2::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.7);
+}
+
+/* CONTENT */
+.overlay-2{
+position:relative;
+z-index:2;
+text-align:center;
+color:white;
+padding:50px;
+}
+
+/* TAGLINE */
+.tagline-2{
+font-family:'Great Vibes', cursive;
+font-size:40px;
+color:#ff9800;
+margin-bottom:10px;
+}
+
+/* HEADING */
+.overlay-2 h1{
+font-size:45px;
+margin-bottom:15px;
+}
+
+/* PARAGRAPH */
+.overly-2 p{
+max-width:800px;
+margin:auto;
+line-height:1.6;
+}
+
+/* IMAGE GRID */
+.images-2{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+margin-top:30px;
+}
+
+/* IMAGE CARDS */
+.images-2 img{
+width:250px;
+height:180px;
+object-fit:cover;
+
+background:white;
+padding:8px;
+border-radius:10px;
+
+box-shadow:0 0 15px rgba(255,255,255,0.2);
+transition:0.3s;
+}
+
+/* HOVER */
+.images-2 img:hover{
+transform:scale(1.05);
+}
+
+/* section-3 */
+.why-section-3{
+min-height:100vh;
+background:url('/images/late-night-bar-in-Udaipur-4.webp');
+background-size:cover;
+background-position:center;
+position:relative;
+}
+
+/* DARK OVERLAY */
+.why-section-3::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.7);
+}
+
+/* MAIN LAYOUT */
+.overlay-3{
+position:relative;
+z-index:2;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:60px;
+color:white;
+}
+
+/* LEFT TEXT */
+.content{
+width:50%;
+}
+
+.tagline{
+font-family:'Great Vibes', cursive;
+font-size:40px;
+color:#ff9800;
+margin-bottom:10px;
+}
+
+.content h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.content p{
+line-height:1.6;
+}
+
+/* RIGHT IMAGE */
+.image-box{
+width:45%;
+}
+
+.image-box img{
+width:100%;
+height:450px;
+object-fit:cover;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* visit part */
+.inner_visit_text{
+   display: flex;
+   gap: 30px;
+}
+
+.left_div{
+    color: #ffa100;
+    font-size: 35px;
+    padding-top: 43px;
+    padding-left: 40px;
+}
+.left_div > h4{
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    padding-top: 15px;
+}
+.left_div >p{
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 20px;
+}
+.mail{
+    font-size: 30px!important ;
+    color: white;
+    padding-top: 20px;
+}
+.house{
+    font-size: 30px;
+    color: white;
+    padding-top: 15px;
+}
+.address{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.right_div{
+    padding-top: 50px;
+    padding-right: 45px;
+}
+.visit{
+    background-image: url('../images/bg01.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+/* menu section start */
+.menu{
+    background-image: url('../images/bg01.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+.menu_inner >img{
+    width: 300px;
+    height: 500px;
+}
+.menu_inner{
+    padding-top: 20px;
+    margin: auto;
+    padding-left: 35px;
+}
+/* menu section end */
